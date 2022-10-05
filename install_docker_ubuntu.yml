@@ -1,6 +1,6 @@
 ---
 - name: Install Docker on Ubuntu
-  hosts: all
+  hosts: jenkins-8
   become: true
   tasks:
     - name: update all packages
